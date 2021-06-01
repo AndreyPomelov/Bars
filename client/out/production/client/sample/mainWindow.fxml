@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8.0.281" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+    <children>
+        <Button layoutX="15.0" layoutY="361.0" mnemonicParsing="false" onAction="#getAllContracts" text="All Contracts" />
+        <TextField layoutX="109.0" layoutY="361.0" prefHeight="25.0" prefWidth="179.0" promptText="Enter the contract number" />
+        <Button layoutX="300.0" layoutY="361.0" mnemonicParsing="false" text="Search" />
+      <WebView fx:id="webView" layoutX="15.0" layoutY="15.0" prefHeight="339.0" prefWidth="570.0" />
+    </children>
+</AnchorPane>
