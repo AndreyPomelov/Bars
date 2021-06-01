@@ -6,6 +6,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/** Класс служит для запуска приложения
+ * @author Andrey Pomelov
+ * @version 1.0
+ */
 public class Main extends Application {
 
     @Override
