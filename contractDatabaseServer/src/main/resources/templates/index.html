@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>Number</th>
+        <th>Date</th>
+        <th>Last Update</th>
+        <th>Actuality</th>
+    </tr>
+    <tr th:each="c : ${contracts}">
+        <td th:text="${c.number}"></td>
+        <td th:text="${c.date}"></td>
+        <td th:text="${c.lastUpdate}"></td>
+        <td th:text="${c.isActual}"></td>
+    </tr>
+</table>
+</body>
+</html>
